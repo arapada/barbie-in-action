@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ead2dc;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #d72f89
+  
+}
+
+
+h3{
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  color: #bc3859; 
+}
+
+.barbielogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.barbielogo img {
+  max-height: 200px;
+  padding-right: 75px;
+}
+
+.navigation-bar {
+  /* apply to the parent container to use flexbox*/
+  display: flex;
+  /* all items in a row starting at the left of the screen*/
+  flex-direction: row;
+  /* items display with equal space around them*/
+  justify-content: space-around;
+  background-color: #d72f89;
+  border-color: #FFFFFF
+}
+
+/* nav bar styling */
+button {
+  margin: 15px;
+  font-size: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+  background: #e3e3e3;
+  border-color: transparent;
+}
+  
+button:hover {
+  cursor: pointer;
+  background-color: #e3b6ec
+}
+
+
+.desc{
+  text-align:center;
+  text-decoration: none;
+}
+
+.imageLink{
+
+  position: relative;
+  margin: 5px;
+  height:350px;
+  width:350px;
+  object-fit: cover;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 8px;
+  border-radius: 5px;
+}
+
+
+.photos{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageLink:hover{
+  cursor: pointer;
+}
+
+
+.page-title{
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 800;
+  color: #bc3859;
+}
+
+.temp-link{
+  text-decoration: none;
+  font-weight: 400;
+  font-family: 'Source Sans 3', sans-serif;
+  color: #841ba1
+  
+}
+
+.temp-link:hover{
+  color: #bc3859;
+}

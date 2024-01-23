@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ead2dc;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #d72f89
+  
+}
+
+.barbielogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.barbielogo img {
+  max-height: 200px;
+  padding-right: 75px;
+}
+
+.navigation-bar {
+  /* apply to the parent container to use flexbox*/
+  display: flex;
+  /* all items in a row starting at the left of the screen*/
+  flex-direction: row;
+  /* items display with equal space around them*/
+  justify-content: space-around;
+  background-color: #d72f89;
+  border-color: #FFFFFF
+}
+
+/* nav bar styling */
+button {
+  margin: 15px;
+  font-size: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+  background: #e3e3e3;
+  border-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #e3b6ec
+}
+
+h2{
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 800;
+  color: #bc3859;
+}
+
+h3{
+  font-family: 'Source Sans 3', sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: #bc3859;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.subhead{
+  font-size:larger;
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  color: #bc3859; 
+}
+h4{
+  font-family: 'Source Sans 3', sans-serif;
+  color: #660b32;
+}
+label{
+  font-family: 'Source Sans 3', sans-serif;
+  color: #660b32;
+}
+
+form{
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 30px auto;
+  width: 80%;
+  display: block;
+}
+
+input[type="button"]{
+  font-size: medium;
+  font-family: 'Source Sans 3', sans-serif;
+  color:white;
+  background: #7e0c5a;
+  border: none;
+  border-radius: 5px;
+}
