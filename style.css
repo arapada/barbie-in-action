@@ -1,0 +1,163 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ead2dc;
+}
+
+/* Fact Generator */
+.genFact {
+  background: #be9fd0;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.2em;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+#fact {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 3px;
+  border-radius: 5px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  line-height: 1.2em;
+  color: #FFFFFF;
+}
+
+#factBtn {
+  background: #7e0c5a;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 5px;
+  /* margin: 5px; */
+
+  color: #ffffff;
+  font-size: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #d72f89
+  
+}
+
+.barbielogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.barbielogo img {
+  max-height: 200px;
+  padding-right: 75px;
+}
+
+.navigation-bar {
+  /* apply to the parent container to use flexbox*/
+  display: flex;
+  /* all items in a row starting at the left of the screen*/
+  flex-direction: row;
+  /* items display with equal space around them*/
+  justify-content: space-around;
+  background-color: #d72f89;
+
+}
+
+/* nav bar styling */
+button {
+  margin: 15px; 
+  font-size: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+  background: #e3e3e3;
+  border-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #e3b6ec
+}
+
+.mission-statement{
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  border: groove;
+  border-color: #d72f89;
+  background: #be9fd0;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*this is for About Us section*/
+.aboutUs{
+  text-align:center;
+  background-color: white;
+  border-top: 3px solid #d72f89;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: auto;
+  /* flex-direction: row; */
+  
+}
+
+.aboutUsContainer{
+  display:flex;
+}
+
+.aboutTitle{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-style: italic;
+  color: #FB6F92;
+}
+
+
+.profile{
+  max-height:200px;
+  max-width:200px;
+  border: 3px solid #d72f89;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.name{
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.bio{
+  font-family: 'Source Sans 3', sans-serif;
+  margin: 20px;
+}
+
+.home-page-text{
+  font-family: 'Source Sans 3', sans-serif; 
+  font-size: 40px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
